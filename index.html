@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development for Dummies - Landing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center p-4">
+    <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl max-w-2xl w-full text-center transform transition-all duration-300 hover:scale-105">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-blue-800 mb-6 leading-tight">
+            Web Development for Dummies
+        </h1>
+        <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-prose mx-auto">
+            Unlock the secrets of web development with this comprehensive guide designed for beginners.
+            Learn to build stunning websites from scratch, understand core concepts, and bring your digital ideas to life.
+            No prior experience needed!
+        </p>
+        <button
+            id="download-now-button"
+            onclick="window.location.href='register.html'"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-blue-300 active:bg-blue-800"
+        >
+            Download Your Free Copy Now!
+        </button>
+    </div>
+</body>
+</html>
